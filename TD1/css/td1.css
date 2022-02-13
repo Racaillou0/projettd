@@ -1,0 +1,127 @@
+#chien {
+    float: right;
+}
+
+h3 {
+    clear: right;
+    text-align: center;
+    padding-top: 50px;
+}
+
+p::before {
+    content: " « ";
+    color: red;
+}
+
+p::after {
+    content: " » ";
+    color: green;
+}
+
+a {
+    padding: 1px;
+    border: 1px;
+    border-color: black;
+    white-space: nowrap;
+}
+
+p {
+    color: blue;
+    background-color: palegreen;
+    font-family: arciform;
+}
+
+#chien {
+    transition-duration: 2s;
+    border-color: red
+}
+
+#chien:hover {
+    transform: rotate(360deg);
+    border-color: green;
+}
+
+nav>ul>li {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin-top: 0;
+    position: relative;
+}
+
+nav>ul>li>a {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin: 0;
+    padding: 10px;
+}
+
+nav>ul>li>a:hover {
+    background-color: red;
+}
+
+nav li:hover {
+    background-color: red;
+}
+
+nav ul {
+    text-align: right;
+}
+
+a {
+    color: blue;
+}
+
+a[href*="../a-propos.html"]:hover {
+    background-color: red;
+}
+
+nav>ul>li:hover>a>span {
+    display: inline-block;
+}
+
+nav>ul>li>a>span {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li>ul {
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav>ul>li>ul {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    white-space: nowrap;
+    text-align: start;
+    z-index: 1;
+}
+
+nav>ul>li>ul>li {
+    display: block;
+}
+
+.rede {
+    background-color: red;
+    border-style: solid;
+}

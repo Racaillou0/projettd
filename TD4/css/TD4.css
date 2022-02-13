@@ -1,0 +1,143 @@
+table {
+    background: white;
+    caption-side: bottom;
+    box-shadow: 5px 5px 10px black;
+}
+
+caption {
+    font-variant: small-caps;
+    color: gray;
+    margin: 20px;
+}
+
+th {
+    background: red;
+    color: white;
+}
+
+th:first-letter {
+    color: burlywood;
+}
+
+td {
+    color: black;
+}
+
+tr:nth-child(2n) {
+    background: #FFE64A;
+}
+
+tr:nth-child(2n+1) {
+    background: #FECA35;
+}
+
+td:nth-child(1):first-letter {
+    color: red;
+    font-weight: bold;
+}
+
+td:nth-child(4n)::before {
+    content: "✆ ";
+    color: brown;
+}
+
+td:nth-child(1) {
+    font-weight: bold;
+}
+
+td:nth-child(2) {
+    font-style: italic;
+}
+
+#map {
+    transform: scale(0.5);
+    margin-left: auto;
+    margin-right: auto;
+    border-style: hidden;
+    background: transparent;
+    animation: none;
+}
+
+nav>ul>li {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin-top: 0;
+    position: relative;
+}
+
+nav>ul>li>a {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin: 0;
+    padding: 10px;
+}
+
+nav>ul>li>a:hover {
+    background-color: red;
+}
+
+nav li:hover {
+    background-color: red;
+}
+
+nav ul {
+    text-align: right;
+}
+
+a {
+    color: blue;
+}
+
+a[href*="../a-propos.html"] {
+    background-color: orange;
+}
+
+a[href*="../a-propos.html"]:hover {
+    background-color: red;
+}
+
+nav>ul>li:hover>a>span {
+    display: inline-block;
+}
+
+nav>ul>li>a>span {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li>ul {
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav>ul>li>ul {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    white-space: nowrap;
+    text-align: start;
+    z-index: 1;
+}
+
+nav>ul>li>ul>li {
+    display: block;
+}

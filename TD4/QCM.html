@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang='fr'>
+
+<head>
+    <link rel="stylesheet" type="text/css" href="css/QCM.css">
+    <meta charset='utf-8' />
+    <title>La vie a l'IUT TD4</title>
+</head>
+
+<body>
+    <header>
+        <section>
+            <h1> Les formulaires TD4</h1></section>
+    </header>
+    <main>
+        <form onsubmit="alert('Formulaire valide !');">
+            <fieldset>
+                <label for="t1">NOM (*)</label>
+                <input type="text" id="t1" name="nom"> </fieldset>
+            <fieldset>
+                <label for="t2">COURRIEL (*)</label>
+                <input type="email" id="t2" name="email"> </fieldset>
+            <fieldset>
+                <label for="t3">SITE WEB</label>
+                <input type="url" id="t3" name="url"> </fieldset>
+            <fieldset>
+                <label for="t4">SATISFACTION (*)</label>
+                <input type="range" min="0" max="10" step="1" id="t4" name="url"> </fieldset>
+            <fieldset>
+                <label for="t5">COMMENTAIRE (*)</label>
+                <textarea id="t5" name="msg" maxlength="140" rows="5"></textarea>
+            </fieldset>
+            <fieldset>
+                <button>poster un commentaire</button>
+            </fieldset>
+        </form>
+    </main>
+</body>
+
+</html>

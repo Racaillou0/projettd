@@ -1,0 +1,145 @@
+html {
+    --couleur-principale: SandyBrown;
+}
+
+@font-face {
+    font-family: "VujahdayScript-Regular";
+    src: url("../fonts/VujahdayScript-Regular.ttf") format("truetype");
+}
+
+* {
+    box-sizing: border-box;
+    color: blue;
+}
+
+h3 {
+    text-align: center;
+}
+
+@font-face {
+    font-family: "arciform";
+    src: url("../fonts/Arciform.otf") format("truetype");
+}
+
+h1 {
+    border-style: solid;
+    text-align: center;
+    border: 2px gold;
+    border-top: 4px gold;
+    border-bottom-style: dashed;
+    border-top-style: solid;
+    animation: h1 5s alternate infinite;
+    color: white;
+    position: relative;
+}
+
+@keyframes h1 {
+    0% {
+        background-color: #18A7FF;
+    }
+    100% {
+        background-color: #812AFF;
+    }
+}
+
+h2 {
+    border-color: rgb(13, 255, 0);
+    border-style: solid;
+    text-align: center;
+    margin-top: 75px;
+    background: var(--couleur-principale);
+    font-family: VujahdayScript-Regular;
+}
+
+img {
+    border-color: red;
+    border-style: solid;
+    text-align: center;
+}
+
+li {
+    margin-top: 10px;
+}
+
+a {
+    color: black;
+}
+
+a[href*="../a-propos.html"] {
+    background-color: red;
+}
+
+h1:hover {
+    background-color: palegreen;
+}
+
+h2:hover {
+    background-color: lightcyan;
+}
+
+div {
+    display: block;
+    color: black;
+    background-color: #E9CA82;
+    border: 3px solid #382893;
+    border-radius: 80px;
+    padding: 3%;
+    margin: 2%;
+    animation: h2 5s alternate infinite;
+}
+
+@keyframes h2 {
+    0% {
+        background-color: #E9CA82;
+    }
+    100% {
+        background-color: #D4AC50;
+    }
+}
+
+#points {
+    list-style-type: none;
+    font-size: 1.2em;
+    font-weight: bold;
+}
+
+body {
+    color: green;
+    background: repeating-linear-gradient(-45deg, lightblue, orange 50px, lightgreen 50px, orange 100px);
+    background-repeat: no-repeat;
+    background-color: white;
+    width: 80%;
+    min-width: auto;
+    max-width: 1000px;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+    margin: auto;
+}
+
+main {
+    display: block;
+    margin: -80px auto 0px auto;
+    padding: 80px 50px 20px 50px;
+    background: white;
+    animation: main 5s alternate infinite;
+}
+
+#propos {
+    background: none;
+}
+
+#propos1 {
+    background-color: orange;
+}
+
+@media (max-width: 50em) {
+    @keyframes main {
+        0% {
+            background-color: #FDAC4B;
+        }
+        100% {
+            background-color: #C97D00;
+        }
+    }
+}

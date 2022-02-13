@@ -1,0 +1,93 @@
+pre {
+    text-align: left;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    background-color: darkkhaki;
+    border: 3px solid black;
+    padding: 10px;
+    margin: auto;
+}
+
+nav>ul>li {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin-top: 0;
+    position: relative;
+}
+
+nav>ul>li>a {
+    text-align: center;
+    display: inline-block;
+    width: 90px;
+    height: 30px;
+    border-bottom-left-radius: 10%;
+    background-color: skyblue;
+    border-bottom-right-radius: 40%;
+    margin: 0;
+    padding: 10px;
+}
+
+nav>ul>li>a:hover {
+    background-color: red;
+}
+
+nav li:hover {
+    background-color: red;
+}
+
+nav ul {
+    text-align: right;
+}
+
+a {
+    color: blue;
+}
+
+a[href*="../a-propos.html"] {
+    background-color: orange;
+}
+
+a[href*="../a-propos.html"]:hover {
+    background-color: red;
+}
+
+nav>ul>li:hover>a>span {
+    display: inline-block;
+}
+
+nav>ul>li>a>span {
+    position: absolute;
+    top: 50px;
+    left: 5px;
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li>ul {
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+nav>ul>li:hover>ul {
+    display: block;
+}
+
+nav>ul>li>ul {
+    position: absolute;
+    top: 30px;
+    right: 5px;
+    white-space: nowrap;
+    text-align: start;
+    z-index: 1;
+}
+
+nav>ul>li>ul>li {
+    display: block;
+}

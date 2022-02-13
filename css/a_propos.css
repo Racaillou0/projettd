@@ -1,0 +1,28 @@
+section h6 {
+    display: none;
+    color: red;
+    background: #fdd;
+}
+
+section:hover h6 {
+    display: inline;
+}
+
+h6 {
+    position: absolute;
+    top: 10%;
+    left: 70%;
+    font-size: 50px;
+}
+
+section {
+    margin: 20px auto;
+    width: 500px;
+    position: relative;
+}
+
+p {
+    color: blue;
+    background: none;
+    font-family: arciform;
+}

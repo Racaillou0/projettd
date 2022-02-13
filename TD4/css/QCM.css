@@ -1,0 +1,79 @@
+* {
+    box-sizing: border-box;
+    margin: 0px;
+    font-weight: bold;
+}
+
+form>fieldset:first-letter {
+    color: blue;
+}
+
+button {
+    border-radius: 50px;
+    background: cornflowerblue;
+    color: white;
+}
+
+body {
+    background-color: cornsilk;
+    font: 0.9em sans-serif;
+}
+
+form {
+    margin: 10px;
+    background: aliceblue;
+    max-width: 350px;
+    border-radius: 15px;
+    border: solid cornflowerblue;
+    padding: 10px;
+}
+
+input[type=text],
+input[type=email],
+input[type=number],
+input[type=url],
+input[type=range],
+textarea {
+    border-radius: 5px;
+    width: 100%;
+    border: solid cornflowerblue;
+    border-width: 2px;
+}
+
+fieldset {
+    width: 100%;
+    border: dotted cornflowerblue;
+    border-width: 0px 0px 2px 0px;
+    padding: 10px;
+}
+
+input:invalid {
+    background-color: #fba;
+    border: dotted red;
+    border-width: 3px;
+}
+
+input:focus,
+textarea:focus {
+    background: lightsteelblue;
+}
+
+fieldset:last-of-type {
+    text-align: center;
+    border: none;
+}
+
+h1 {
+    border-color: rgb(40, 200, 100);
+    background-color: aqua;
+    border-style: solid;
+    text-align: center;
+    border: 2px green;
+    border-radius: 100%;
+    border-bottom-style: dashed;
+    color: blue;
+}
+
+h1:hover {
+    background-color: palegreen;
+}
